@@ -1,11 +1,123 @@
-# Sample
+<p align="center">
+  <img src="./logo.jpg" alt="Sample Logo" width="100%">
+</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis, metus posuere viverra suscipit, enim tortor finibus arcu, id auctor nibh felis faucibus risus. Quisque eget consequat massa. Sed sed sodales risus. Duis justo felis, fringilla et hendrerit vitae, convallis quis est. Pellentesque dui urna, sodales vel mollis ut, finibus in elit. Integer erat enim, pretium non nibh at, auctor finibus dolor. Praesent egestas leo dolor, vel luctus lectus egestas in. Etiam at dictum justo.
+<h1 align="center">Sample</h1>
 
-Sed eget elit et lacus tincidunt semper. In eu arcu sit amet nibh euismod varius in nec lacus. In lacinia at justo at accumsan. Pellentesque accumsan vitae augue ac tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum lacinia nulla ut augue luctus, at mattis risus gravida. Donec nec lorem luctus purus ultricies elementum ut eu arcu. Etiam libero augue, tincidunt non lacus eget, ornare mattis urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<p align="center">
+  <strong>AI-Powered Gaming Stack</strong>
+</p>
 
-Mauris molestie turpis ac efficitur fermentum. Vestibulum vitae odio porta, sollicitudin eros ac, aliquet nisi. Fusce volutpat ligula et finibus fringilla. Sed at luctus ligula, id maximus leo. Mauris eu consectetur elit. Mauris aliquet nec lectus vitae hendrerit. Nullam sed varius neque. Suspendisse at nunc quam. Nulla facilisi. Proin in tellus ac elit aliquet consectetur at vel magna. Proin nec feugiat nunc. Curabitur iaculis enim ac felis bibendum, nec aliquam velit placerat. Duis fringilla id mi sed efficitur. Etiam pellentesque ac odio ut pharetra. Pellentesque posuere placerat dolor quis congue.
+<p align="center">
+  Build intelligent, adaptive games with generative AI, procedural content, and living NPCs.
+  <br>
+  From prototype to production — in one modern stack.
+</p>
 
-Duis non est elit. Sed eu lacus efficitur, facilisis nisi nec, venenatis nisi. Vestibulum sed consequat odio. Nam interdum ipsum metus, nec semper nisi suscipit quis. Sed ut ligula eu est commodo malesuada sit amet ac arcu. Nullam consectetur commodo sem a tempor. Proin laoreet semper ornare. Cras porta mi vitae neque posuere, non commodo leo sagittis. Nulla id orci a magna viverra accumsan ac nec tortor. Vestibulum auctor in magna eu venenatis. Suspendisse elit nulla, pellentesque nec facilisis eget, cursus sit amet nisi. Praesent nec mauris odio. Praesent egestas lorem ac justo placerat blandit.
+<p align="center">
+  <a href="https://github.com/hypr-ego/sample/stargazers">
+    <img src="https://img.shields.io/github/stars/hypr-ego/sample?style=flat-square" alt="Stars">
+  </a>
+</p>
 
-Vestibulum pellentesque viverra vulputate. Phasellus vulputate elit dignissim nulla blandit ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut lacus quam, ultrices sed velit at, consequat commodo lacus. Phasellus ultricies, orci quis dictum luctus, quam leo feugiat lectus, vel mollis mauris sapien ut nulla. Aenean sed dolor in erat consectetur efficitur. Curabitur at pulvinar diam, at rhoncus magna. In hac habitasse platea dictumst. Aliquam eget magna sit amet tellus viverra fermentum. Aliquam lectus sem, fermentum nec erat nec, euismod efficitur nisl.
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#roadmap">Roadmap</a> •
+  <a href="#contributing">Contributing</a>
+</p>
+
+---
+
+## About
+
+**Sample** is a modern, open-source gaming stack designed for developers who want to ship games with real intelligence baked in.
+
+Instead of bolting AI on as an afterthought, Sample treats generative AI, procedural generation, and adaptive systems as first-class citizens. Whether you're building a narrative RPG, a roguelike, a multiplayer experience, or an experimental title, Sample gives you the tools to create worlds and characters that feel alive.
+
+> Built for game developers who care about both craft and cutting-edge technology.
+
+---
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **AI NPCs** | Context-aware characters powered by local or cloud LLMs. Personality, memory, and goals out of the box. |
+| **Procedural Worlds** | Generate levels, quests, and environments that adapt to player behavior. |
+| **Adaptive Difficulty** | Real-time systems that learn from player skill and adjust the experience. |
+| **Narrative Engine** | Dynamic storytelling that responds to player choices without railroading. |
+| **Multiplayer Ready** | Built-in networking with AI-assisted matchmaking and spectator modes. |
+| **Editor Tools** | Visual tools to design AI behaviors, train models, and preview generation. |
+| **Cross-Platform** | Deploy to desktop, web, and mobile from a single codebase. |
+| **Modular** | Use the full stack or pick only the modules you need. |
+
+---
+
+## Tech Stack
+
+- **Engine**: Godot 4.x (primary) + optional Unity export pipeline
+- **AI Runtime**: Python 3.11+ (FastAPI services) + ONNX / llama.cpp for local inference
+- **Language**: GDScript + TypeScript (tooling) + Python (AI layer)
+- **Networking**: WebRTC + WebSockets
+- **Data**: SQLite (local) / PostgreSQL (cloud)
+- **Build**: Docker + GitHub Actions
+- **Editor**: VS Code / Cursor with dedicated extensions
+
+---
+
+## Architecture
+
+<p align="center">
+  <img src="./architecture.svg" alt="Sample architecture diagram" width="100%">
+</p>
+
+- **Runtime**: Godot handles rendering, physics, and input.
+- **Bridge**: Lightweight layer that syncs game state with AI services.
+- **AI Services**: Separate processes (local or remote) that handle inference, memory, and generation.
+
+---
+
+## Roadmap
+
+- [x] Core AI NPC system
+- [x] Procedural dungeon generator
+- [x] Local LLM support (llama.cpp)
+- [ ] Visual behavior tree editor
+- [ ] Multiplayer AI director
+- [ ] Asset generation pipeline (textures, audio, animations)
+- [ ] Unity & Unreal exporters
+- [ ] Cloud dashboard for model training
+
+---
+
+## Contributing
+
+We welcome contributions of all kinds — code, documentation, examples, and ideas.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+## License
+
+Distributed under the **MIT License**.
+
+---
+
+## Acknowledgments
+
+- Inspired by the best practices from [awesome-readme](https://github.com/matiassingers/awesome-readme)
+- Built with love by the open-source game development community
+- Special thanks to the Godot and Hugging Face teams
+
+---
+
+<p align="center">
+  <sub>Made with care for game developers who want more than static content.</sub>
+  <br>
+  <a href="https://github.com/hypr-ego/sample">GitHub</a>
+</p>
